@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 import tensorflow as tf
 tf.random.set_seed(42)  
-
+  
 file_path = "training.1600000.processed.noemoticon.csv" 
 
 df = pd.read_csv(file_path, encoding="latin1", header=None)
