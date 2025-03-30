@@ -59,64 +59,75 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
    ```bash
    git clone https://github.com/username/genetic-algo-sentiment.git
+   
 Navigate to the project directory:
 
-bash
-Copy
-Edit
-cd genetic-algo-sentiment
+    bash
+    Copy
+    Edit
+    cd genetic-algo-sentiment
 Install required dependencies:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
+    bash
+    Copy
+    Edit
+    pip install -r requirements.txt
 Usage
 Basic Usage
 Run the sentiment analysis tool:
 
-bash
-Copy
-Edit
-python main.py
+    bash
+    Copy
+    Edit
+    python main.py
+    
 Follow the on-screen instructions to input a sentence for emotion classification.
 
 Example Input and Output
-Input:
-Sentence: "I'm so happy to see you!"
+
+    Input:
+    Sentence: "I'm so happy to see you!"
 
 Output:
-Emotion Scores:
 
-Happy: 0.8523
-
-Sad: 0.0201
-
-Anger: 0.0034
-
-Fear: 0.0056
-
-Surprise: 0.0932
-
-Disgust: 0.0254
-
-Dominant Emotion: Happy
+    Emotion Scores:
+    
+    Happy: 0.8523
+    
+    Sad: 0.0201
+    
+    Anger: 0.0034
+    
+    Fear: 0.0056
+    
+    Surprise: 0.0932
+    
+    Disgust: 0.0254
+    
+    Dominant Emotion: Happy
 
 Contributing
 Contributions are welcome! Please follow these steps:
 
 Fork this repository.
 
-Create a branch: git checkout -b feature/YourFeature.
+Create a branch: 
 
-Commit your changes: git commit -m 'Add some feature'.
+    git checkout -b feature/YourFeature.
 
-Push to the branch: git push origin feature/YourFeature.
+Commit your changes: 
+
+    git commit -m 'Add some feature'.
+
+Push to the branch: 
+
+    git push origin feature/YourFeature.
 
 Open a pull request.
 
 License
-This project is licensed under the MIT License.
+
+    This project is licensed under the MIT License.
 
 Acknowledgments
 Contributors: Thank you to all contributors who help improve this project.
